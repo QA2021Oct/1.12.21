@@ -7,10 +7,12 @@ class Dog {
     int age;
     double tailLength;
 
+   // defalut ctor:
     public Dog(){
 
     }
 
+     // Overloading for Ctor: 
    public Dog(String name, String color, int age, double tailLength){
         this.name = name;
         this.color = color;
